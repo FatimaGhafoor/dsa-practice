@@ -18,7 +18,7 @@ var runningSum = function (nums) {
     sum += num;
     sumArr.push(sum);
   }
-  return sumArr; 
+  return sumArr;
 };
 
 runningSum([1, 2, 3, 4]);
