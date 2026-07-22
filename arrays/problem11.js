@@ -15,13 +15,10 @@ var isAnagram = function (s, t) {
   const ss = s.split("").sort();
   const ts = t.split("").sort();
 
-  if (ss.length !== ts.length) {
-    return false;
-  }
+  if (ss.length !== ts.length) return false;
+
   for (let i = 0; i < ss.length; i++) {
-    if (ss[i] !== ts[i]) {
-      return false;
-    }
+    if (ss[i] !== ts[i]) return false;
   }
   return true;
 };
