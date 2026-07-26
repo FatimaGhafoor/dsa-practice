@@ -12,7 +12,7 @@ Output: false
 */
 
 var isAnagram = function (s, t) {
-  if (ss.length !== ts.length) return false; // check first
+  if (s.length !== t.length) return false; // check first
 
   const ss = s.split("").sort(); // then sorting
   const ts = t.split("").sort();
