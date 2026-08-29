@@ -18,3 +18,11 @@ function perfectNumber(num) {
 }
 
 perfectNumber(56);
+
+/* 
+Approach: I loop from 1 to half of the number, find its divisors using modulo, 
+add those divisors, and compare their sum with the original number.
+
+Time Complexity: O(1)
+Space Complexity: O(1)
+*/
