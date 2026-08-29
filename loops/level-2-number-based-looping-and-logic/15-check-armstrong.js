@@ -26,3 +26,11 @@ function armStrong(num) {
 }
 
 console.log(armStrong(153));
+
+/*
+Approach: I first count the number of digits, then calculate the sum of each digit raised to that digit count, 
+and finally compare the sum with the original number.
+
+Time Complexity: O(d)
+Space Complexity: O(1)
+*/
