@@ -11,7 +11,9 @@ function findFactorial(n) {
 findFactorial(5);
 
 /* 
-Approach: I initialize result with 1, then loop from 1 to n. In each iteration, I multiply the current i with result to calculate the factorial.
+Approach: I initialize result with 1, then loop from 1 to n. In each iteration, 
+I multiply the current i with result to calculate the factorial.
+
 Time Complexity: O(n) 
 Space Complexity: O(1)
 */
