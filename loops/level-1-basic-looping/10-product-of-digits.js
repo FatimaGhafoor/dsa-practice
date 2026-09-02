@@ -12,7 +12,9 @@ function productOfDigits(num) {
 }
 
 /* 
-Approach: I use Math.abs() to handle negative numbers, convert the number to a string, split it into individual digits, and use a for...of loop to calculate their product.
+Approach: I use Math.abs() to handle negative numbers, convert the number to a string, 
+split it into individual digits, and use a for...of loop to calculate their product.
+
 Time Complexity: O(d), where d is the number of digits, because each digit is processed once.
 Space Complexity: O(d) because the split() method creates an array containing all digits.
 */
