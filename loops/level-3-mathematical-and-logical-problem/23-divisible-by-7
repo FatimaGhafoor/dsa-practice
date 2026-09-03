@@ -1,0 +1,17 @@
+// Print all numbers between a and b divisible by 7.
+function divisibleOfSeven(a, b) {
+  for (let i = a; i <= b; i++) {
+    if (i % 7 === 0) {
+      console.log(i);
+    }
+  }
+}
+divisibleOfSeven(10, 30); // 14, 21, 28
+
+/* 
+Approach: I used a loop that starts from a and goes up to b. 
+For each number, I checked whether it is divisible by 7 and printed it if it was.
+
+Time: worst case O(n)
+Space: O(1)
+*/
